@@ -6,6 +6,7 @@ pygame.init()
 
 
 window = pygame.display.set_mode((constants.WIDTH, constants.HEIGHT))
+pygame.display.set_caption("TreeCode Crypto")
 
 run = True
 
