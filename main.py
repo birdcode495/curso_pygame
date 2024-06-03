@@ -2,7 +2,7 @@ import pygame
 import constants
 from characters import *
 
-player = Character(90, 90)
+player = Character(200, 400)
 
 pygame.init()
 
