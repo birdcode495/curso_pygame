@@ -1,5 +1,8 @@
 import pygame
 import constants
+from characters import *
+
+player = Character(90, 90)
 
 pygame.init()
 
@@ -12,11 +15,16 @@ run = True
 
 while run == True:
 
+	player.draw(window)
+
 	for event in pygame.event.get():
 
 		if event.type == pygame.QUIT:
 
 			run = False
+
+
+	pygame.display.update()
 
 
 pygame.quit()
